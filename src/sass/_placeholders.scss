@@ -1,0 +1,23 @@
+%dark-section-title {
+  color: $accent;
+  font-family: $ff-a;
+  font-weight: 800;
+}
+
+%light-section-title {
+  color: $text-dark;
+  font-family: $ff-a;
+  font-weight: 800;
+}
+
+%light-section-text {
+  color: $par-text-color;
+  font-family: $ff-a;
+  font-size: 18px;
+}
+
+%button-text {
+  color: $text-light;
+  font-family: $ff-a;
+  text-transform: uppercase;
+}
