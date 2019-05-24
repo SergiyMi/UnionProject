@@ -11,7 +11,7 @@
 }
 
 %light-section-text {
-  color: $par-text-color;
+  color: $par-textColor;
   font-family: $ff-a;
   font-size: 18px;
 }
@@ -20,4 +20,9 @@
   color: $text-light;
   font-family: $ff-a;
   text-transform: uppercase;
+}
+
+%card-numbers-text {
+  font-family: $ff-m;
+  font-weight: 700;
 }

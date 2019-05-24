@@ -18,3 +18,8 @@
     align-items: center;
   }
 }
+@mixin button($width, $height, $button-color) {
+  width: $width;
+  height: $height;
+  color: $button-color;
+}
