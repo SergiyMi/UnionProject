@@ -1,0 +1,13 @@
+.dark-section {
+  background-color: $text-dark;
+  color: $text-light;
+  max-width: 100%;
+}
+
+.work:before {
+  @include before($display: block, $content: '');
+  background-color: $accent;
+  width: 62px;
+  height: 2px;
+  margin: 35px 0 10px;
+}

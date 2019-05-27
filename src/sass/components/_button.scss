@@ -1,0 +1,8 @@
+.btn {
+  @include button(260px, 70px, $button-color);
+  border: none;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  @extend %button-text;
+}

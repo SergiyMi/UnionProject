@@ -1,12 +1,15 @@
 /*
    Import partials below
 */
+@import './variables';
 @import './normalize';
 @import './typography';
-@import './variables';
 @import './placeholders';
 @import './mixin';
 
 @import './components/it-info';
-// // @import './components/it-companies';
-// // @import './components/your-way';
+@import './components/list';
+@import './components/button';
+@import './components/your-way';
+@import './components/media_768';
+@import './components/media_1200';

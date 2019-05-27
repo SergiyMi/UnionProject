@@ -1,1 +1,58 @@
+.title {
+  font-size: $sm-titleSize;
+  line-height: 30px;
+  margin: 0;
+}
 
+.title__light-section {
+  @extend %light-section-title;
+  margin-bottom: 0;
+  // padding-top: 0;
+}
+
+.title__dark-section {
+  @extend %dark-section-title;
+  margin: 20px 0;
+}
+
+.accent {
+  color: $accent;
+  font-weight: 600;
+  font-family: $ff-a;
+  font-size: 30px;
+}
+
+.accent__income {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.text {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.text__bold {
+  font-weight: 600;
+  padding-left: 17px;
+}
+
+.text__extra-bold {
+  font-weight: 800;
+}
+
+.text__tired {
+  font-size: $md-textFontSize;
+  line-height: 30px;
+}
+
+.text__dark {
+  line-height: 22px;
+}
+
+.text__income {
+  font-size: 10px;
+  line-height: 11px;
+  width: 113px;
+  margin: 0;
+}
