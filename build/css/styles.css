@@ -374,3 +374,187 @@ template {
 [hidden] {
   display: none;
 }
+
+/* montserrat-bold - latin */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v12-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v12-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* acrom-bold - latin */
+
+@font-face {
+  font-family: 'Acrom';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Acrom Bold"), local("Acrom-Bold"), url("../fonts/Acrom-Bold.woff2") format("woff2"), url("../fonts/Acrom-Bold.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* acrom-light - latin */
+
+@font-face {
+  font-family: 'Acrom';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Acrom Bold"), local("Acrom-Bold"), url("../fonts/Acrom-Light.woff2") format("woff2"), url("../fonts/Acrom-Light.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* acrom-regular - latin */
+
+@font-face {
+  font-family: 'Acrom';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Acrom Regular"), local("Acrom-Regular"), url("../fonts/Acrom-Regular.woff2") format("woff2"), url("../fonts/Acrom-Regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* acrom-medium - latin */
+
+@font-face {
+  font-family: 'Acrom';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Acrom Medium"), local("Acrom-Medium"), url("../fonts/Acrom-Medium.woff2") format("woff2"), url("../fonts/Acrom-Medium.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* acrom-extrabold - latin */
+
+@font-face {
+  font-family: 'Acrom';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Acrom ExtraBold"), local("Acrom-ExtraBold"), url("../fonts/Acrom-ExtraBold.woff2") format("woff2"), url("../fonts/Acrom-ExtraBold.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.container {
+  min-height: 478px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header_textSecond {
+  color: #00eaff;
+  font-family: "Acrom", sans-serif;
+  font-weight: 800;
+}
+
+.form_textFirst {
+  color: #000000;
+  font-family: "Acrom", sans-serif;
+  font-weight: 800;
+}
+
+.container-fluid__color {
+  background-color: #181c27;
+}
+
+.logo__wrp {
+  width: 130px;
+}
+
+.header_textFirst {
+  font-family: "Acrom", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.header_textSecond {
+  font-size: 20px;
+}
+
+.header_textThird {
+  font-family: "Acrom", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.header_textFourth {
+  font-family: "Acrom", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f9ae23;
+}
+
+.header_textFifth {
+  font-family: "Acrom", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #f9ae23;
+}
+
+.form-Wrp {
+  background-color: #ffffff;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.form_textFirst {
+  font-size: 16px;
+}
+
+.form_textSecond {
+  font-family: "Acrom", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #000000;
+}
+
+.name {
+  margin-bottom: 15px;
+  width: 224px;
+  height: 40px;
+}
+
+.email {
+  margin-bottom: 15px;
+  width: 224px;
+  height: 40px;
+}
+
+.phone {
+  margin-bottom: 15px;
+  width: 224px;
+  height: 40px;
+}
+
+.button {
+  width: 224px;
+  height: 40px;
+  background-color: #ff6b08;
+  border: 0;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.header_textSix {
+  font-family: "Acrom", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #6b6f7a;
+  text-align: center;
+}

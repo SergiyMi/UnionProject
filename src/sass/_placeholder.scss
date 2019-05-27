@@ -1,0 +1,28 @@
+%dark-sectionTitle {
+  color: $accent;
+  font-family: $ff-a;
+  font-weight: 800;
+}
+
+%light-sectionTitle {
+  color: $text-dark;
+  font-family: $ff-a;
+  font-weight: 800;
+}
+
+%light-sectionText {
+  color: $par-textColor;
+  font-family: $ff-a;
+  font-size: 18px;
+}
+
+%button-text {
+  color: $text-light;
+  font-family: $ff-a;
+  text-transform: uppercase;
+}
+
+%card-numbersText {
+  font-family: $ff-m;
+  font-weight: 700;
+}
