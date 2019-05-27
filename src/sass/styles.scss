@@ -3,4 +3,10 @@
 */
 @import './normalize';
 @import './typography';
-@import './variable';
+@import './variables';
+@import './placeholders';
+@import './mixin';
+
+@import './components/it-info';
+// // @import './components/it-companies';
+// // @import './components/your-way';

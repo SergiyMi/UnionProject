@@ -374,3 +374,400 @@ template {
 [hidden] {
   display: none;
 }
+
+.title__dark-section {
+  color: #00eaff;
+  font-family: "Acrom", sans-serif;
+  font-weight: 800;
+}
+
+.title__light-section {
+  color: #000000;
+  font-family: "Acrom", sans-serif;
+  font-weight: 800;
+}
+
+.btn__text {
+  color: #ffffff;
+  font-family: "Acrom", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 260px;
+  padding: 30px;
+  font-family: "Acrom", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dark-section {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.title__light-section {
+  margin: 0;
+  padding-top: 0;
+}
+
+.title__dark-section {
+  margin: 20px 0;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 17px;
+  list-style-position: outside;
+  margin: 0;
+}
+
+.list__proposals {
+  list-style-image: url(../images/icons/icon_square.png);
+}
+
+.list__item {
+  padding: 10px 0;
+}
+
+.list__squared {
+  padding: 10px 0 0 10px;
+}
+
+.list__income {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.list__info-img {
+  margin: auto;
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  width: 311px;
+  height: 193px;
+  position: absolute;
+  -webkit-transform: translate(5%, -75%);
+  transform: translate(5%, -75%);
+  z-index: -1;
+}
+
+.list__info-item {
+  width: 100%;
+}
+
+.accent {
+  color: #00eaff;
+  font-weight: 600;
+  font-family: "Acrom", sans-serif;
+  font-size: 30px;
+}
+
+.accent__income {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.card {
+  position: relative;
+}
+
+.btn {
+  width: 260px;
+  height: 70px;
+  background-color: #ff6b08;
+  border: none;
+}
+
+.btn__text {
+  text-decoration: none;
+}
+
+.text {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.text__bold {
+  font-weight: 600;
+  padding-left: 17px;
+}
+
+.text__extra-bold {
+  font-weight: 800;
+}
+
+.text__tired {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.text__dark {
+  line-height: 22px;
+}
+
+.text__income {
+  font-size: 10px;
+  line-height: 11px;
+  width: 113px;
+  margin: 0;
+}
+
+.work:before {
+  display: block;
+  content: "";
+  background-color: #00eaff;
+  width: 62px;
+  height: 2px;
+  margin: 35px 0 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 748px;
+    line-height: 20px;
+  }
+
+  .container__it-proposals {
+    padding-top: 30px;
+  }
+
+  .container__it-info {
+    width: 748px;
+    height: 540px;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    padding: 20px;
+  }
+
+  .subtitle {
+    margin: 0 auto;
+    text-align: center;
+    width: 405px;
+    font-size: 18px;
+    padding: 10px;
+    padding-bottom: 25px;
+    line-height: 25px;
+  }
+
+  .card-wrapper {
+    position: relative;
+    width: 702px;
+    height: 540px;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 622px;
+    height: 462px;
+    padding: 40px;
+    margin: 0 auto;
+    box-shadow: -5px 5px 32px 0 rgba(208, 211, 213, 0.8);
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+  }
+
+  .card-background {
+    width: 700px;
+    height: 542px;
+    margin: 0 auto;
+    position: absolute;
+    -webkit-transform: translate(5%, 3%);
+    transform: translate(5%, 3%);
+    z-index: 2;
+    background: #edf0f2;
+  }
+
+  .accent {
+    font-weight: 500;
+  }
+
+  .btn {
+    width: 530px;
+    height: 70px;
+    background-color: #ff6b08;
+    border: none;
+  }
+
+  .btn__text {
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .list__squared {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .list__info {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    flex-shrink: 0;
+  }
+
+  .list__info-img {
+    background-image: url(../images/map-md.png);
+    -webkit-transform: translate(96%, -30%);
+    transform: translate(96%, -30%);
+  }
+
+  .list__info-item {
+    width: 30%;
+  }
+
+  .it-income {
+    width: 256px;
+  }
+
+  .proposals_wr {
+    width: 662px;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+
+  .content-area {
+    width: 662px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .text__tired {
+    font-size: 22px;
+  }
+
+  .work {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .title__dark-section {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1173px;
+    line-height: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container__it-proposals {
+    width: 33%;
+    padding-top: 0;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    width: 50%;
+    margin: 0;
+  }
+
+  .title__light-section {
+    width: 100%;
+    margin: 0;
+    padding-top: 65px;
+  }
+
+  .title__dark-section {
+    font-size: 48px;
+    text-align: left;
+    padding-left: 0;
+    width: 100%;
+    padding: 45px 0;
+  }
+
+  .title__it-info {
+    width: 40%;
+    padding: 70px 15px;
+  }
+
+  .btn {
+    width: 683px;
+    height: 111px;
+    background-color: #ff6b08;
+    border: none;
+  }
+
+  .btn__text {
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .lg-wr {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list__squared {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 15px;
+  }
+
+  .list__info-img {
+    background-image: url(../images/map.png);
+  }
+
+  .card-background {
+    -webkit-transform: translate(-3%, 3%);
+    transform: translate(-3%, 3%);
+  }
+
+  .text__tired {
+    font-size: 30px;
+    line-height: 35px;
+    width: 65%;
+    order: 1;
+  }
+
+  .content-area {
+    width: 1173px;
+    height: 440px;
+    padding: 70px 15px;
+    flex-direction: column;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lg-to-know {
+    width: 65%;
+    order: 2;
+  }
+
+  .work {
+    width: 28%;
+    height: 370px;
+    order: 3;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0;
+    padding-top: 40px;
+  }
+
+  .text__dark {
+    line-height: 35px;
+  }
+}
