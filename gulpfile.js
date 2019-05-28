@@ -20,7 +20,7 @@ const rename = require('gulp-rename');
 const server = require('browser-sync').create();
 
 function html() {
-  return src('src/*.html')
+  return src('src/html/*.html')
     .pipe(rigger())
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest('build'));
@@ -63,7 +63,7 @@ function sprite() {
 }
 
 function images() {
-  return src(['src/images/**/*.{png,jpg,jpeg,svg}', '!src/images/icons/**/*'])
+  return src(['src/images/*.{png,jpg,jpeg,svg}', 'src/images/icons/**/*'])
     .pipe(
       imagemin([
         imagemin.jpegtran({ progressive: true }),

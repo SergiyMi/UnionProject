@@ -10,6 +10,12 @@
   display: flex;
   justify-content: space-between;
 }
+@mixin button($width, $height, $button-color) {
+  width: $width;
+  height: $height;
+  background-color: $button-color;
+  border: 0;
+}
 @mixin center-flex($type: 'all') {
   display: flex;
 
@@ -21,10 +27,4 @@
   } @else if $type== 'ver' {
     align-items: center;
   }
-}
-@mixin button($width, $height, $background-color) {
-  width: $width;
-  height: $height;
-  background-color: $button-color;
-  border: 0;
 }
