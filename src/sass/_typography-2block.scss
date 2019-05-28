@@ -5,13 +5,13 @@
 }
 
 .title__light-section {
-  @extend %light-section-title;
+  @extend %light-sectionTitle;
   margin-bottom: 0;
   // padding-top: 0;
 }
 
 .title__dark-section {
-  @extend %dark-section-title;
+  @extend %dark-sectionTitle;
   margin: 20px 0;
 }
 
