@@ -527,6 +527,7 @@ body {
   width: 260px;
   height: 70px;
   background-color: #ff6b08;
+  border: 0;
   border: none;
   box-sizing: border-box;
   text-align: center;
@@ -622,6 +623,7 @@ body {
     width: 530px;
     height: 70px;
     background-color: #ff6b08;
+    border: 0;
     border: none;
     text-decoration: none;
     font-size: 18px;
@@ -746,6 +748,7 @@ body {
     width: 683px;
     height: 111px;
     background-color: #ff6b08;
+    border: 0;
     border: none;
     font-size: 30px;
   }
