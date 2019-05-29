@@ -1,0 +1,120 @@
+@media (min-width: 1190px) {
+  .it-sphere-info {
+    height: 950px;
+  }
+
+  .container {
+    max-width: $lg-contentWidth;
+    line-height: 20px;
+    padding-left: 0;
+    padding-right: 0;
+
+    &__it-proposals {
+      width: 400px;
+      padding-top: 0;
+      margin: 0;
+    }
+    
+    &__it-info {
+      width: 1170px;
+    }
+  }
+
+  .title {
+    font-size: $lg-titleSize;
+    line-height: 60px;
+    text-align: left;
+    width: 50%;
+    margin: 0;
+
+    &__light-section {
+      width: 100%;
+      margin: 0;
+      padding: 65px 0 20px 0;
+    }
+
+    &__dark-section {
+      font-size: 48px;
+      text-align: left;
+      padding-left: 0;
+      width: 100%;
+      padding: 45px 0;
+    }
+
+    &__it-info {
+      width: 40%;
+      padding: 70px 15px;
+    }
+  }
+
+  .proposals_wr {
+    padding: 0;
+    width: 386px;
+  }
+
+  .btn {
+    @include button(683px, 111px, $button-color);
+    border: none;
+    font-size: $md-titleSize;
+  }
+
+  .lg-wr {
+    @include between($type: 'betw');
+  }
+
+  .list {
+    &__squared {
+      font-size: $lg-textFontSize;
+      line-height: 20px;
+      padding-top: 15px;
+      width: 95%;
+    }
+
+    &__info-img {
+      background-image: url(../images/map.png);
+    }
+  }
+
+  .card-background {
+    transform: translate(-3%, 3%);
+  }
+
+  .text {
+    &__tired {
+      font-size: 30px;
+      line-height: 35px;
+      width: 65%;
+      order: 1;
+    }
+
+    &__dark {
+      line-height: 35px;
+    }
+  }
+
+  .content-area {
+    width: $lg-contentWidth;
+    height: 440px;
+    padding: 70px 0;
+    margin-left: 15px;
+    flex-direction: column;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lg-to-know {
+    width: 65%;
+    order: 2;
+  }
+
+  .work {
+    width: 28%;
+    height: 370px;
+    order: 3;
+    font-size: $lg-textFontSize;
+    line-height: 35px;
+    letter-spacing: 0;
+    padding-top: 40px;
+  }
+}

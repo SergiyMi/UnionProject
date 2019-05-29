@@ -1,0 +1,42 @@
+.list {
+  list-style-type: none;
+  padding-left: 17px;
+  list-style-position: outside;
+  margin: 0;
+}
+
+.list__proposals {
+  list-style-image: url(../images/icon_square.png);
+}
+
+.list__item {
+  padding: 10px 0;
+}
+
+.list__squared {
+  padding: 10px 0 0 10px;
+}
+
+.list__income {
+  @include between($type: 'betw');
+  margin: 0;
+}
+
+.list__info {
+  overflow: hidden;
+}
+
+.list__info-img {
+  margin: auto;
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  width: 283px;
+  height: 193px;
+  position: absolute;
+  transform: translate(5%, -75%);
+  z-index: -1;
+}
+
+.list__info-item {
+  width: 100%;
+}

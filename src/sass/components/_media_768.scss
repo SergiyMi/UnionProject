@@ -1,0 +1,136 @@
+@media (min-width: 768px) {
+  .container {
+    max-width: 740px;
+    line-height: 20px;
+    padding: 10px;
+
+    &__it-proposals {
+      padding-top: 30px;
+    }
+
+    &__it-info {
+      width: 740px;
+      height: 540px;
+    }
+  }
+
+  .it-sphere-info {
+    height: 1010px;
+  }
+
+  .title {
+    font-size: $md-titleSize;
+    text-align: center;
+    line-height: 40px;
+    padding: 20px;
+  }
+
+  .subtitle {
+    margin: 0 auto;
+    text-align: center;
+    width: 405px;
+    font-size: $lg-textFontSize;
+    padding: 10px;
+    padding-bottom: 25px;
+    line-height: 25px;
+  }
+
+  .card-wrapper {
+    position: relative;
+    width: 700px;
+    height: 550px;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 620px;
+    height: 462px;
+    padding: 40px;
+    margin: 0 auto;
+    box-shadow: -5px 5px 32px 0 rgba(208, 211, 213, 0.8);
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+  }
+
+  .card-background {
+    width: 700px;
+    height: 542px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(3%, 3%);
+    z-index: 2;
+    background: #edf0f2;
+  }
+
+  .accent {
+    font-weight: 500;
+  }
+
+  .btn {
+    @include button(530px, 70px, $button-color);
+    border: none;
+    text-decoration: none;
+    font-size: $lg-textFontSize;
+  }
+
+  .list {
+    &__squared {
+      width: 60%;
+      font-size: $md-textFontSize;
+      padding-top: 15px;
+    }
+
+    &__info {
+      @include between($type: 'betw');
+      flex-flow: wrap;
+      flex-shrink: 0;
+
+      &-img {
+        background-image: url(../images/map-md.png);
+        transform: translate(96%, -30%);
+        width: 311px;
+      }
+
+      &-item {
+        width: 30%;
+      }
+    }
+  }
+
+  .it-income {
+    width: 256px;
+  }
+
+  .proposals_wr {
+    width: 662px;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+
+  .content-area {
+    width: 662px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .text__tired {
+    font-size: 22px;
+  }
+
+  .work {
+    width: 60%;
+    font-size: $md-textFontSize;
+  }
+
+  .dark-section {
+    height: 605px;
+  }
+
+  .title__dark-section {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 0;
+  }
+}
