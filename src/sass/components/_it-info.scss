@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 260px;
+  padding: 30px;
+  font-family: $ff-a;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  font-size: $sm-textFontSize;
+  line-height: 20px;
+}
+
+.container__it-proposals {
+  padding-top: 30px;
+}
+
+.card {
+  position: relative;
+}
