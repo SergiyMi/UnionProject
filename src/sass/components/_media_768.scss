@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   .container {
-    max-width: 740px;
+    max-width: 727px;
     line-height: 20px;
     padding: 10px;
 
@@ -9,13 +9,18 @@
     }
 
     &__it-info {
-      width: 740px;
+      width: 727px;
       height: 540px;
     }
   }
 
   .it-sphere-info {
     height: 1010px;
+  }
+
+  section {
+    width: calc(screen - 21px);
+    margin: 0 auto;
   }
 
   .title {
@@ -49,6 +54,7 @@
     margin: 0 auto;
     box-shadow: -5px 5px 32px 0 rgba(208, 211, 213, 0.8);
     position: absolute;
+    transform: translate(-1.5%, 0);
     z-index: 10;
     background-color: #fff;
   }
@@ -58,7 +64,7 @@
     height: 542px;
     margin: 0 auto;
     position: absolute;
-    transform: translate(3%, 3%);
+    transform: translate(1.5%, 3%);
     z-index: 2;
     background: #edf0f2;
   }
