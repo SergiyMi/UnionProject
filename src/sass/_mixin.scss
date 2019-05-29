@@ -1,3 +1,10 @@
+@mixin button($width, $height, $button-color) {
+  width: $width;
+  height: $height;
+  background-color: $button-color;
+  border: 0;
+}
+
 @mixin after($display: block, $content: '') {
   display: $display;
   content: $content;
@@ -9,12 +16,6 @@
 @mixin between($type: 'betw') {
   display: flex;
   justify-content: space-between;
-}
-@mixin button($width, $height, $button-color) {
-  width: $width;
-  height: $height;
-  background-color: $button-color;
-  border: 0;
 }
 @mixin center-flex($type: 'all') {
   display: flex;
