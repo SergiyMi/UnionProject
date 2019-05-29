@@ -1,0 +1,92 @@
+.container-fluid__color {
+  background-color: rgb(24, 28, 39);
+}
+
+.logo__wrp {
+  // width: calc($sm-contentWidth / 2);
+  width: $sm-contentWidth / 2;
+  // border: solid red 2px;
+}
+
+.header_textFirst {
+  font-family: $ff-a;
+  font-weight: 400;
+  font-size: $sm-textFontSize;
+  color: $text-light;
+}
+
+.header_textSecond {
+  @extend %dark-sectionTitle;
+  font-size: $sm-titleSize;
+}
+
+.header_textThird {
+  font-family: $ff-a;
+  font-weight: 500;
+  font-size: $sm-textFontSize;
+  color: $text-light;
+}
+
+.header_textFourth {
+  font-family: $ff-a;
+  font-weight: 700;
+  font-size: $sm-textFontSize;
+  color: $accent-secondary;
+}
+
+.header_textFifth {
+  font-family: $ff-a;
+  font-weight: 800;
+  font-size: $sm-titleSize;
+  color: $accent-secondary;
+}
+
+.form-Wrp {
+  background-color: $text-light;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.form_textFirst {
+  @extend %light-sectionTitle;
+  font-size: $md-textFontSize;
+}
+
+.form_textSecond {
+  font-family: $ff-a;
+  font-weight: 300;
+  font-size: 13px;
+  color: $text-dark;
+}
+
+.name {
+  margin-bottom: 15px;
+  width: 224px;
+  height: 40px;
+}
+
+.email {
+  margin-bottom: 15px;
+  width: 224px;
+  height: 40px;
+}
+
+.phone {
+  margin-bottom: 15px;
+  width: 224px;
+  height: 40px;
+}
+
+.button {
+  @include button(224px, 40px, rgb(255, 107, 8));
+  color: $text-light;
+  margin-bottom: 15px;
+}
+
+.header_textSix {
+  font-family: $ff-a;
+  font-weight: 400;
+  font-size: 13px;
+  color: $awards-textColor;
+  text-align: center;
+}
