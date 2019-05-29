@@ -1,12 +1,14 @@
 /*
    Import partials below
 */
-@import './variable';
 @import './normalize';
 @import './typography-2block';
+@import './variable';
+@import './classes';
 @import './placeholder';
 @import './mixin';
 
+@import '../html/components/header/header';
 @import './components/it-info';
 @import './components/list';
 @import './components/button';
