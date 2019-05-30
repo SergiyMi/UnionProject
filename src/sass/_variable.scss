@@ -1,11 +1,11 @@
 $accent: #00eaff;
 $accent-secondary: #f9ae23;
-$button-color: #ff6b08; 
+$button-color: #ff6b08;
 $text-dark: #000000;
 $text-light: #ffffff;
 $text-slightlyGray: #edf0f2;
-$ff-a: "Acrom", sans-serif;
-$ff-m: "Montserrat", sans-serif;
+$ff-a: 'Acrom', sans-serif;
+$ff-m: 'Montserrat', sans-serif;
 $awards-textColor: #6b6f7a;
 $par-textColor: #222222;
 $sm-textFontSize: 14px;
@@ -20,3 +20,24 @@ $lg-cardNumberSize: 150px;
 $sm-contentWidth: 260px;
 $md-contentWidth: 748px;
 $lg-contentWidth: 1170px;
+
+%partners-accent-titels {
+  font-size: $md-textFontSize;
+  background-color: $text-slightlyGray;
+  display: inline-block;
+  margin-left: 17px;
+  font-weight: 800;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container {
+  min-height: 478px;
+  max-width: $sm-contentWidth;
+  text-align: center;
+  margin: 0 auto;
+}
