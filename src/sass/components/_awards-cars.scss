@@ -1,0 +1,155 @@
+.Awards-cars {
+  width: 225px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  position: relative;
+  box-shadow: -7px 15px 42px 0px rgba(181, 174, 181, 1);
+
+  &__nomber {
+    font-size: 70px;
+    font-family: $ff-m;
+    color: $text-slightlyGray;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    right: -10px;
+    top: -50px;
+  }
+
+  &__title {
+    font-size: $lg-textFontSize;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.444;
+    width: 128px;
+  }
+  &__title::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    background-color: $accent;
+  }
+  &__img-wrp {
+    text-align: center;
+  }
+}
+.Awards-cars__text {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 27px;
+  font-size: $sm-textFontSize;
+  line-height: 1.5;
+  &--dark {
+    font-weight: 800;
+  }
+  &--light {
+    color: $awards-textColor;
+  }
+}
+
+.United-Nations {
+  background-image: url(../images/united-nations2.jpg);
+  background-position: top;
+  background-size: 147px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  margin-bottom: 47px;
+
+  &__title {
+    @extend %partners-accent-titels;
+    margin-top: 0;
+  }
+  &__subtitle {
+    font-size: $sm-titleSize;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-left: 17px;
+  }
+  &__text {
+    font-size: $sm-textFontSize;
+    color: $awards-textColor;
+    width: 225px;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .Awards-cars {
+    &__text-wrp {
+      height: 250px;
+    }
+    &__img-wrp {
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  }
+  .United-Nations {
+    width: 400px;
+    margin: auto;
+    background-position-x: right;
+    margin-bottom: 40px;
+
+    &__subtitle {
+      font-size: 24px;
+    }
+    &__text {
+      width: 91%;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .Awards {
+    order: 2;
+    &__title{
+      margin: 0;
+      margin-bottom: 40px;
+      margin-left: 20px;
+    }
+    &__list {
+      width: 1140px;
+      padding: 0;
+      margin-left: 10px;
+    }
+  }
+  .Awards-cars {
+    display: flex;
+    width: 360px;
+    vertical-align: top;
+    padding: 0;
+    box-shadow: none;
+    &__title {
+      margin: 0;
+      font-size: 24px;
+      width: 200px;
+      line-height: 1.25;
+      height: 90px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      margin: 0;
+      width: 225px;
+      margin-right: 10px;
+    }
+    &__img-wrp {
+      align-items: center;
+    }
+    &__title::before {
+      opacity: 0;
+    }
+    &__nomber {
+      font-size: 30px;
+      transform: rotateZ(-90deg);
+      top: -70px;
+    }
+  }
+}
+
