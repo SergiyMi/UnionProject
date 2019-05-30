@@ -25,11 +25,11 @@
   font-size: $sm-titleSize;
   color: rgb(34, 34, 34);
   font-weight: bold;
-  margin-left: 48px;
-  margin-right: 48px;
+  // margin-left: 48px;
+  // margin-right: 48px;
 
   &__content {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
   }
 }
