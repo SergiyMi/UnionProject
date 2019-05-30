@@ -746,6 +746,12 @@ template {
   min-height: 860px;
 }
 
+.advice-container {
+  margin: 0 auto;
+  max-width: 260px;
+  min-height: 570px;
+}
+
 .advice__wrp {
   position: relative;
   max-width: 224px;
@@ -1471,7 +1477,7 @@ body {
   }
 
   .advice-container {
-    margin: 0;
+    margin: 0 auto;
     max-width: 748px;
     height: 570px;
   }
