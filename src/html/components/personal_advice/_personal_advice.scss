@@ -21,12 +21,11 @@
 }
 
 .adviceText {
-  ff: $ff-a;
+  font-family: $ff-a;
   font-size: $sm-titleSize;
   color: rgb(34, 34, 34);
   font-weight: bold;
-  // margin-left: 48px;
-  // margin-right: 48px;
+  padding-top: 30px;
 
   &__content {
     margin: 0 auto;
@@ -71,6 +70,7 @@
     padding-left: 30px;
     margin-top: -70px;
     padding-right: 40px;
+    font-family: $ff-a;
     font-size: $md-textFontSize;
   }
 

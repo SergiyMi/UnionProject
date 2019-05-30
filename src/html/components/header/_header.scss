@@ -62,6 +62,7 @@
   padding-left: 18px;
   padding-right: 18px;
   width: $sm-contentWidth - 36px;
+  font-family: $ff-a;
 }
 
 .form_textFirst {
@@ -77,7 +78,7 @@
 .form_textSecond {
   font-family: $ff-a;
   font-weight: 300;
-  font-size: 13px;
+  font-size: $sm-textFontSize - 1px;
   color: $text-dark;
   margin: 0;
   margin-bottom: 30px;

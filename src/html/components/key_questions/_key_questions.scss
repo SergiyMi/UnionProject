@@ -24,7 +24,10 @@
   list-style-type: none;
   position: relative;
   padding-left: 2rem;
+  font-family: $ff-a;
+  font-weight: 400;
   font-size: $sm-textFontSize;
+  margin-bottom: 20px;
 }
 
 .list__item::before {
