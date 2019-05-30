@@ -1,0 +1,225 @@
+.container-fluid__bgcolor {
+  background-color: rgb(237, 240, 242);
+  min-height: 860px;
+}
+
+.advice__wrp {
+  position: relative;
+  max-width: $sm-contentWidth - 36px;
+  margin-left: 18px;
+}
+
+.ico__line {
+  position: absolute;
+  z-index: 100;
+}
+
+.adviceText {
+  ff: $ff-a;
+  font-size: $sm-titleSize;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  margin-left: 48px;
+  margin-right: 48px;
+
+  &__content {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.adviceNumber {
+  display: flex;
+  justify-content: flex-end;
+  color: $text-light;
+  font-size: $sm-cardNumberSize;
+  max-width: $sm-contentWidth - 12px;
+
+  &__content {
+    margin: 0;
+    text-align: end;
+  }
+}
+
+.squareDown {
+  width: 224px;
+  height: 230px;
+  background-color: rgb(230, 233, 235);
+  margin-top: -25px;
+}
+
+.squareUp {
+  width: 224px;
+  height: 230px;
+  background-color: $text-light;
+  box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16);
+  @include center-flex(all);
+  position: absolute;
+  opacity: 1;
+  z-index: 10;
+  top: 35px;
+  left: 20px;
+
+  &__content {
+    margin: 0;
+    padding-left: 30px;
+    margin-top: -70px;
+    padding-right: 40px;
+    font-size: $md-textFontSize;
+  }
+
+  &__contentDif {
+    margin-top: -30px;
+  }
+}
+
+.advice__wrpMargin {
+  margin-bottom: 34px;
+}
+
+.advice__button {
+  @include button(224px, 106px, rgb(255, 112, 42));
+  color: $text-light;
+  margin-bottom: 40px;
+  margin-left: 36px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .advice-container {
+    margin: 0;
+    max-width: $md-contentWidth;
+    height: 570px;
+  }
+
+  .adviceText {
+    font-size: $md-titleSize;
+    padding-top: 52px;
+    max-width: $md-contentWidth - 216px;
+    margin: 0 auto;
+  }
+
+  .adviceNumber {
+    margin: 0;
+    font-size: $md-titleSize;
+
+    &__content {
+      font-size: $md-cardNumberSize;
+    }
+  }
+
+  .advice__content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .advice-content:nth-of-child(1) {
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  .step {
+    width: 20px;
+  }
+
+  .squareUp {
+    &__content {
+      font-size: $md-textFontSize;
+    }
+
+    &__contentDif {
+      margin-top: 10px;
+    }
+  }
+
+  .squareUp__contentLg > .squareUp__content {
+    margin-top: -10px;
+  }
+
+  .button__wrp {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .advice__wrpMargin {
+    margin-bottom: 40px;
+  }
+
+  .advice__button {
+    @include button(530px, 70px, rgb(255, 112, 42));
+  }
+}
+
+@media (min-width: 1200px) {
+  .advice-container {
+    margin: 0 auto;
+    max-width: $lg-contentWidth;
+    height: 856px;
+  }
+
+  .adviceText {
+    font-size: $lg-titleSize;
+    padding-top: 52px;
+    max-width: $lg-contentWidth - 210px;
+    margin: 0 auto;
+  }
+
+  .advice__content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  // .advice-content:nth-of-child(1) {
+  //   margin-right: 20px;
+  //   margin-bottom: 40px;
+  // }
+
+  .step {
+    width: 30px;
+  }
+
+  .advice__wrp {
+    min-width: $md-contentWidth - 398px;
+  }
+
+  .adviceNumber {
+    font-size: $lg-titleSize;
+    min-width: $md-contentWidth - 398px;
+
+    &__content {
+      font-size: $lg-cardNumberSize;
+    }
+  }
+
+  .squareDown {
+    width: 350px;
+    height: 280px;
+  }
+
+  .squareUp {
+    width: 350px;
+    height: 280px;
+    top: 105px;
+    left: -20px;
+
+    &__content {
+      font-size: $lg-textFontSize;
+    }
+
+    &__contentLg {
+      margin-top: 10px;
+    }
+  }
+
+  .button__wrp {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .advice__button {
+    @include button(810px, 110px, rgb(255, 112, 42));
+  }
+}

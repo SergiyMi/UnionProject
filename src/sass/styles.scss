@@ -2,17 +2,23 @@
    Import partials below
 */
 @import './normalize';
+@import './variable';
 @import './typography-2block';
 @import './typography';
-@import './variable';
 @import './classes';
 @import './placeholder';
 @import './mixin';
 
 @import '../html/components/header/header';
+@import '../html/components/key_questions/key_questions';
+@import '../html/components/personal_advice/personal_advice';
 @import './components/it-info';
 @import './components/list';
 @import './components/button';
 @import './components/your-way';
 @import './components/media_768';
 @import './components/media_1200';
+<<<<<<< HEAD
+@import './components/media_1200';
+=======
+>>>>>>> 546117c51fd08f25a6ed1fa8303806b1ca72eb8e
