@@ -1,0 +1,85 @@
+.who-we-are {
+  font-family: $ff-a;
+  text-align: left;
+  padding-top: 40px;
+  &__title-wrp {
+    width: 190px;
+    margin-left: 17px;
+  }
+  &__title {
+    font-size: $md-textFontSize;
+    font-weight: 800;
+    line-height: 1.5;
+    color: $par-textColor;
+    margin: 0 0 30px;
+  }
+}
+
+.Awards {
+  &__title {
+    @extend %partners-accent-titels;
+  }
+  &__list {
+    list-style: none;
+    padding: 0;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .who-we-are {
+    min-width: $md-contentWidth;
+    display: flex;
+    flex-wrap: wrap;
+    &__title-wrp {
+      width: 512px;
+      margin-left: 64px;
+    }
+    &__title {
+      font-size: $md-titleSize;
+    }
+  }
+  .Awards {
+    &__title {
+      margin-left: 64px;
+    }
+    &__list {
+      min-width: 738px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .who-we-are {
+    min-width: $lg-contentWidth;
+    padding-top: 100px;
+    &__title-wrp {
+      order: -4;
+      width: 100%;
+      margin-left: 20px;
+    }
+    &__title {
+      font-size: $lg-titleSize;
+      line-height: 1.1;
+      width: 680px;
+      margin-bottom: 70px;
+    }
+  }
+  .United-Nations {
+    width: 390px;
+    margin-left: 20px;
+    margin-top: 0;
+    &__title {
+      margin: 0;
+    }
+    &__subtitle {
+      margin-left: 0px;
+      margin-bottom: 18px;
+    }
+    &__text {
+      margin-left: 0px;
+    }
+  }
+}

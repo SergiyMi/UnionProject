@@ -1,0 +1,78 @@
+.container-fluid-footer {
+  background-image: url(../images/foote-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.footer {
+  padding-top: 60px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 300px;
+  }
+
+  &__title-link {
+    font-size: $sm-titleSize;
+    font-family: $ff-a;
+    letter-spacing: 2px;
+    color: $accent;
+    font-weight: bold;
+  }
+  &__logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__logo a {
+    margin-bottom: 17px;
+  }
+  &__text {
+    font-size: $sm-textFontSize;
+    font-family: $ff-a;
+    color: $text-light;
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid-footer {
+    background-image: url(../images/foote-bg-tablet.jpg);
+    height: 470px;
+    overflow: hidden;
+  }
+
+  .footer {
+    min-width: $md-contentWidth;
+    padding-top: 90px;
+    &__logo {
+      justify-content: start;
+      margin-left: 70px;
+      align-items: center;
+    }
+    &__title-link {
+      font-size: $md-titleSize;
+    }
+    &__text {
+      font-size: $lg-textFontSize;
+      justify-content: center;
+      padding-bottom: 20px;
+      margin-left: 10px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .container-fluid-footer {
+    background-image: url(../images/foote-bg-pc.jpg);
+    height: 1056px;
+  }
+  .footer {
+    min-width: $lg-contentWidth;
+    padding-top: 250px;
+
+    &__title {
+      margin-bottom: 640px;
+    }
+    &__text {
+      margin-left: 30px;
+    }
+  }
+}
