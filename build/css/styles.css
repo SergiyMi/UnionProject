@@ -597,6 +597,7 @@ template {
 
 .logo__wrp {
   width: 130px;
+  margin-bottom: 25px;
 }
 
 .none {
@@ -610,10 +611,14 @@ template {
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textSecond {
   font-size: 20px;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textThird {
@@ -621,6 +626,8 @@ template {
   font-weight: 500;
   font-size: 14px;
   color: #ffffff;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textFourth {
@@ -628,6 +635,8 @@ template {
   font-weight: 700;
   font-size: 14px;
   color: #f9ae23;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textFifth {
@@ -635,6 +644,8 @@ template {
   font-weight: 800;
   font-size: 20px;
   color: #f9ae23;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .form-Wrp {
@@ -647,6 +658,11 @@ template {
 
 .form_textFirst {
   font-size: 16px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .form_textSecond {
@@ -654,7 +670,10 @@ template {
   font-weight: 300;
   font-size: 13px;
   color: #000000;
-  margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .name {
@@ -690,6 +709,7 @@ template {
   font-size: 13px;
   color: #6b6f7a;
   text-align: center;
+  margin: 0;
 }
 
 .skey-container {
@@ -703,6 +723,7 @@ template {
   font-size: 20px;
   color: #222222;
   font-weight: bold;
+  padding-top: 35px;
 }
 
 .key_questionsTitle {
@@ -1379,7 +1400,8 @@ body {
   }
 
   .text_wrp {
-    max-width: 576px;
+    max-width: 588px;
+    min-height: 340px;
   }
 
   .form-Wrp {

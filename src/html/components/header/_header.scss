@@ -4,6 +4,7 @@
 
 .logo__wrp {
   width: $sm-contentWidth / 2;
+  margin-bottom: 25px;
 }
 
 .none {
@@ -17,11 +18,15 @@
   font-weight: 400;
   font-size: $sm-textFontSize;
   color: $text-light;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textSecond {
   @extend %dark-sectionTitle;
   font-size: $sm-titleSize;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textThird {
@@ -29,6 +34,8 @@
   font-weight: 500;
   font-size: $sm-textFontSize;
   color: $text-light;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textFourth {
@@ -36,6 +43,8 @@
   font-weight: 700;
   font-size: $sm-textFontSize;
   color: $accent-secondary;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .header_textFifth {
@@ -43,6 +52,8 @@
   font-weight: 800;
   font-size: $sm-titleSize;
   color: $accent-secondary;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .form-Wrp {
@@ -56,6 +67,11 @@
 .form_textFirst {
   @extend %light-sectionTitle;
   font-size: $md-textFontSize;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .form_textSecond {
@@ -63,7 +79,10 @@
   font-weight: 300;
   font-size: 13px;
   color: $text-dark;
-  margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .name {
@@ -96,6 +115,7 @@
   font-size: 13px;
   color: $awards-textColor;
   text-align: center;
+  margin: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -104,7 +124,8 @@
   }
 
   .text_wrp {
-    max-width: 576px;
+    max-width: $md-contentWidth - 160px;
+    min-height: 340px;
   }
 
   .form-Wrp {
