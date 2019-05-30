@@ -4,8 +4,13 @@
   }
 
   .container {
+<<<<<<< HEAD
     max-width: $lg-contentWidth;
     line-height: 1;
+=======
+    max-width: 1167px;
+    line-height: 20px;
+>>>>>>> e86c3237456565d56bf47171ed314c9308c82b69
     padding-left: 0;
     padding-right: 0;
 
@@ -93,7 +98,7 @@
   }
 
   .content-area {
-    width: $lg-contentWidth;
+    width: 1168px;
     height: 440px;
     padding: 70px 0;
     margin-left: 15px;
