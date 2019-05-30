@@ -75,7 +75,15 @@
   }
 
   &__contentDif {
-    margin-top: -30px;
+    margin-top: 0;
+  }
+
+  &__contentDif1 {
+    margin-top: 5px;
+  }
+
+  &__contentDif2 {
+    margin-top: 10px;
   }
 }
 
@@ -133,8 +141,12 @@
       font-size: $md-textFontSize;
     }
 
-    &__contentDif {
+    &__contentDif1 {
       margin-top: 10px;
+    }
+
+    &__contentDif2 {
+      margin-top: 20px;
     }
   }
 
@@ -209,7 +221,15 @@
       font-size: $lg-textFontSize;
     }
 
-    &__contentLg {
+    &__contentDif {
+      margin-top: 10px;
+    }
+
+    &__contentDif1 {
+      margin-top: 5px;
+    }
+
+    &__contentDif2 {
       margin-top: 10px;
     }
   }
