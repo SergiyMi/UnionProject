@@ -576,6 +576,7 @@ template {
   min-height: 478px;
   max-width: 260px;
   margin: 0 auto;
+  text-align: none;
 }
 
 .container-fluid {
@@ -931,6 +932,7 @@ body {
 
 .list__proposals {
   list-style-image: url(../images/icon_square.png);
+  line-height: 22px;
 }
 
 .list-2block__item {
@@ -965,6 +967,7 @@ body {
 
 .list__info-item {
   width: 100%;
+  line-height: 22px;
 }
 
 .btn {
@@ -1034,6 +1037,7 @@ body {
 .footer__title {
   margin: 0;
   margin-bottom: 300px;
+  text-align: center;
 }
 
 .footer__title-link {
@@ -1218,6 +1222,7 @@ body {
     width: 700px;
     height: 550px;
     margin: 0 auto;
+    padding-left: 10px;
   }
 
   .card {
@@ -1362,6 +1367,7 @@ body {
 
   .footer__title-link {
     font-size: 30px;
+    text-decoration: none;
   }
 
   .footer__text {
@@ -1583,6 +1589,10 @@ body {
     font-size: 20px;
   }
 
+  .header_textSix {
+    margin-top: 15px;
+  }
+
   .skey-container {
     max-width: 1140px;
     max-height: 670px;
@@ -1757,6 +1767,7 @@ body {
 
   .footer__title {
     margin-bottom: 640px;
+    text-align: center;
   }
 
   .footer__text {
