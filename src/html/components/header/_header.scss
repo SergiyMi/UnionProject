@@ -118,7 +118,7 @@
   text-align: center;
   margin: 0;
 }
-// .................................media............................
+// .................................media 768px............................
 @media (min-width: 768px) and (max-width: 1200px) {
   .logo__wrp {
     width: $md-contentWidth / 2;
@@ -177,7 +177,7 @@
     @include button(467px, 40px, rgb(255, 107, 8));
   }
 }
-
+// .................................media 1200px............................
 @media (min-width: 1200px) {
   .s-container {
     display: flex;
